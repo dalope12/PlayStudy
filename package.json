@@ -1,0 +1,24 @@
+{
+  "name": "carrierassureautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "frontend": "/tests/frontend",
+    "backend": "/tests/backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^20.12.11",
+    "@types/pg": "^8.11.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mongodb": "6.6",
+    "pg": "^8.11.5"
+  }
+}
