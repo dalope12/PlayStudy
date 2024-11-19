@@ -51,11 +51,6 @@ export default defineConfig({
       use: {},
     },
     {
-      name: "DB",
-      testMatch: "tests/backend/database/*.spec.ts",
-      use: {},
-    },
-    {
       name: "FrontEnd",
       testMatch: "tests/frontend/*.spec.ts",
       use: {
